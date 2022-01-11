@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image/pexels-photo-1095817.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    border-radius: 30px;
+}
+h1,h2{
+    background: linear-gradient(80deg,#70269f,#35eef6);
+    background-size: 50%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation:gradient 4s infinite;
+}
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+}
